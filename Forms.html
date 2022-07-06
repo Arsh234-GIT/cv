@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Forms</title>
+</head>
+<body >
+	<h3>Forms</h3>
+	<form action="mailto:ahmdarsh@student.iul.ac.in" method="post" enctype="text/plain">
+		<div>
+		<label>Enter your name :</label>
+		<input type="text" name="name">
+		<input type="submit" name="name">
+		</div>
+
+	</form>
+		<br>
+
+		<fieldset>
+
+		<legend>Choose your momster features:</legend>
+
+		<div>
+			<label>scales</label>
+			<input type="checkbox" name="scales">
+			
+		</div>
+		<div>
+			<label>post</label>
+			<input type="checkbox" name="post">
+			
+		</div>
+		</fieldset>
+		<br>
+		<legend>Choose your monster color :</legend>
+		<br>
+
+		<div>
+			<label>head :</label>
+            <input type="color" name="head">
+        </div>
+
+        <div>
+			<label>body :</label>
+            <input type="color" name="body">
+        </div>
+        <br>
+
+        <div>
+
+        <label>Choose your time for appointement : </label>
+
+         <input type="datetime-local" name="meeting time">
+     </div>
+
+     <br>
+
+     <div>
+     <label>Enter your email : </label>
+
+     <input type="email" name="">
+     <input type="submit" name="">
+ </div>
+ <br>
+ <div>
+ 	<label>Choose a file : </label>
+ 	<input type="file" name="">
+
+ </div>
+<p>Sign in to your account:</p>
+
+<div>
+  <label for="userId">User ID</label>
+  <input type="text" id="userId" name="userId">
+</div>
+<br>
+
+<input type="image"  alt="Login" src="https://imgs.search.brave.com/K4HXtASkWBWU8x4xg4ctb9iflDKVzE2Dv2g-isj4tlo/rs:fit:1255:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5U/MmlNc1pIY1lJSFJ2/YTJ6X3VfSXB3SGFD/eiZwaWQ9QXBp" height="50">
+<br>
+<div>
+<label for="tentacles">Number of tentacles (10-100):</label>
+
+<input type="number" id="tentacles" name="tentacles"min="10" max="100">
+</div>
+<br>
+<div>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+</div>
+
+<div>
+    <label for="pass">Password (8 characters minimum):</label>
+    <input type="password" id="pass" name="password"
+           minlength="8" required>
+</div>
+
+<input type="submit" value="Sign in">
+<div>
+	
+</div>
+<br>
+
+<div>
+	<fieldset>
+    <legend>Select a maintenance drone:</legend>
+
+    <div>
+      <input type="radio" id="huey" name="drone" value="huey"
+             checked>
+      <label for="huey">Huey</label>
+    </div>
+
+    <div>
+      <input type="radio" id="dewey" name="drone" value="dewey">
+      <label for="dewey">Dewey</label>
+    </div>
+
+    <div>
+      <input type="radio" id="louie" name="drone" value="louie">
+      <label for="louie">Louie</label>
+    </div>
+</fieldset>
+</div>
+<br>
+<div>
+	<p>choose the volume:</p>
+
+	<div>
+		<label> volume: </label>
+	    <input type="range" name="volume" value="80">
+	</div>
+
+	<div>
+		<label> cowbell: </label>
+	    <input type="range" name="cowbell" value="90">
+	</div>
+</div>
+
+</form>
+
+</body>
+</html>
